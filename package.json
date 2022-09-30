@@ -1,0 +1,28 @@
+{
+  "name": "sharkbot",
+  "version": "1.0.0",
+  "description": "A simple Bot for the SharkTeam",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tarrke/SharkBot.git"
+  },
+  "keywords": [
+    "discord",
+    "bot",
+    "swgoh"
+  ],
+  "author": "Tarrke",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Tarrke/SharkBot/issues"
+  },
+  "homepage": "https://github.com/Tarrke/SharkBot#readme",
+  "dependencies": {
+    "discord.js": "^14.5.0",
+    "dotenv": "^16.0.3"
+  }
+}
