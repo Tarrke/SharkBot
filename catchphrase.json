@@ -1,0 +1,22 @@
+[
+    {
+        "phrase": "Difficile à voir. Toujours en mouvement est l'avenir",
+        "tag": ["Yoda", "light side"]
+    }
+    ,{
+        "phrase": "Au secours Obi-Wan Kenobi, vous êtes mon seul espoir.",
+        "tag": ["Leia", "light side"]
+    }
+    ,{
+        "phrase": "Votre manque de foi me consterne.",
+        "tag": ["Dark Vador", "dark side"]
+    }
+    ,{
+        "phrase": "Ce n'est pas parce que tu parle que tu es intelligent.",
+        "tag": ["Anakin", "bash"]
+    }
+    ,{
+        "phrase": "Quand 900 ans comme moi tu auras, moins en forme tu seras !",
+        "tag": ["Yoda", "light side"]
+    }
+]

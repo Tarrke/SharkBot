@@ -4,7 +4,9 @@
   "description": "A simple Bot for the SharkTeam",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node .",
+    "lint": "eslint ."
   },
   "repository": {
     "type": "git",
@@ -23,6 +25,7 @@
   "homepage": "https://github.com/Tarrke/SharkBot#readme",
   "dependencies": {
     "discord.js": "^14.5.0",
-    "dotenv": "^16.0.3"
+    "dotenv": "^16.0.3",
+    "eslint": "^8.24.0"
   }
 }
