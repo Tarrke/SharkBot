@@ -1,6 +1,7 @@
 module.exports = {
     'name': 'hello',
-    async execute(msg) {
+    // eslint-disable-next-line no-unused-vars
+    async execute(msg, arg) {
         msg.reply(`Salut à toi aussi ${msg.author.username}.`);
     },
 };

@@ -22,11 +22,12 @@ module.exports = {
     'once': false,
     async execute(msg) {
         if (msg.content.startsWith(prefix)) {
-            const cmd = msg.content.substring(1);
-            const interraction = interractions.get(cmd);
+            const cmd = msg.content.substring(1).split(/ (.*)/s);
+            console.log(cmd);
+            const interraction = interractions.get(cmd[0]);
             if (!interraction) return;
             try {
-                interraction.execute(msg);
+                interraction.execute(msg, cmd[1]);
             } catch (error) {
                 console.log(error);
                 await msg.reply('Une erreur est survenue !');
